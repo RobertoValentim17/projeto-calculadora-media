@@ -44,7 +44,7 @@ form input {
     font-size: 24px;
     background-color: aliceblue;
     border: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000; /* Colocar uma barra ou fa zer uma divisão na parte de baixo */
     padding: 8px;
 }
 
@@ -85,7 +85,7 @@ table td img{
     font-weight: bold;  
     color: aliceblue;
     background-color: #000;
-    border-radius: 3px;
+    border-radius: 3px; /* A visão da borda, deixando ela mais clara ou escura*/
 }
 
 .aprovado {
