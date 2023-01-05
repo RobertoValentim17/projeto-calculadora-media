@@ -38,6 +38,7 @@ function adicionaLinha(){
 
     inputNomeAtividade.value = '';
     inputNotaAtividade.value = '';
+
 }
 
 function atualizarTabela() {
@@ -48,7 +49,7 @@ function atualizarTabela() {
 function atualizarMediaFinal() {
     const mediaFinal = calculaMediaFinal();
 
-    document.getElementById('media-Final-valor').innerHTML = mediaFinal
+    document.getElementById('media-Final-valor').innerHTML = mediaFinal.toFixed(2)/* Para limitar em 2 casas decimais */
     document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado
 
 }
